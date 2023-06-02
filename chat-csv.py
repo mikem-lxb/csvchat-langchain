@@ -6,7 +6,7 @@ from langchain.llms import OpenAI
 
 
 
-os.environ[ "OPENAI_API_KEY"] = "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"
+os.environ[ "OPENAI_API_KEY"] = "**************I"
 # Load the documents
 loader = CSVLoader(file_path='Pokemon_full.csv')
 # Create an index using the loaded documents
